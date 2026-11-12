@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080a12">
+  <meta name="description" content="Découvre Wylhem Studio : des projets numériques, logiciels, interfaces et expérimentations. Consulte les projets et leurs présentations.">
+  <meta name="google-site-verification" content="IipnNloayashKuFoVChVR47YYi9Opi0Y7vX-sxgm3Sg">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://wylhem-studio.vercel.app/">
+  <title>Wylhem Studio — Des idées. Des projets. À essayer.</title>
+  <style>
+    :root{color-scheme:dark;--bg:#080a12;--panel:#11182a;--line:#293653;--text:#f4f6ff;--muted:#aab4cc;--blue:#5c83ff;--purple:#9a72ff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#202653 0,transparent 38%),var(--bg);color:var(--text);font:16px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1080px,calc(100% - 40px));margin:auto}
+    header{display:flex;align-items:center;justify-content:space-between;padding:24px 0;border-bottom:1px solid #ffffff14}
+    .brand{font-weight:800;letter-spacing:.04em}.brand span{color:var(--blue)}nav{display:flex;gap:24px;color:var(--muted);font-size:14px}
+    .hero{padding:105px 0 85px;max-width:760px}.eyebrow{color:#9bb3ff;text-transform:uppercase;letter-spacing:.18em;font-size:12px;font-weight:700}
+    h1{font-size:clamp(42px,7vw,76px);line-height:1.04;letter-spacing:-.055em;margin:18px 0}
+    h1 em{font-style:normal;background:linear-gradient(100deg,#76a0ff,var(--purple));-webkit-background-clip:text;background-clip:text;color:transparent}
+    .intro{font-size:18px;color:var(--muted);max-width:620px}
+    .actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}.btn{padding:12px 19px;border-radius:12px;background:linear-gradient(110deg,#3568ee,#8055e8);font-weight:700}.btn.secondary{background:#ffffff0a;border:1px solid var(--line)}
+    section{padding:45px 0 75px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:24px}h2{font-size:30px;letter-spacing:-.03em;margin:0}.muted{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}.project{min-height:185px;padding:23px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(145deg,#151e34dd,#0e1322dd);box-shadow:0 18px 55px #0002}
+    .project small{color:#9bb3ff;letter-spacing:.12em;text-transform:uppercase;font-size:11px}.project h3{font-size:21px;margin:12px 0 7px}.project p{margin:0;color:var(--muted);font-size:14px}
+    .about{border-top:1px solid #ffffff14;border-bottom:1px solid #ffffff14;padding:34px 0;color:var(--muted)}
+    footer{padding:28px 0 40px;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    @media(max-width:620px){header{align-items:flex-start;gap:16px;flex-direction:column}nav{gap:17px}.hero{padding:75px 0 55px}.section-head{align-items:flex-start;flex-direction:column}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="/" aria-label="Wylhem Studio, accueil">WYLHEM<span>.</span>STUDIO</a>
+      <nav aria-label="Navigation principale"><a href="#projets">Projets</a><a href="#studio">Le studio</a></nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="eyebrow">Studio indépendant · Création numérique</div>
+        <h1>Des idées.<br><em>Des projets.</em><br>À découvrir.</h1>
+        <p class="intro">Bienvenue chez Wylhem Studio. Un espace consacré à la création de projets numériques, de logiciels et d'interfaces, avec leurs présentations et leurs démonstrations lorsqu'elles sont disponibles.</p>
+        <div class="actions"><a class="btn" href="#projets">Explorer les projets</a><a class="btn secondary" href="#studio">À propos du studio</a></div>
+      </section>
+      <section id="projets">
+        <div class="section-head"><div><div class="eyebrow">Nos créations</div><h2>Les projets du studio</h2></div><p class="muted">Un aperçu des univers en développement.</p></div>
+        <div class="grid">
+          <article class="project"><small>Système · Android</small><h3>WylhemOS</h3><p>Un projet de système mobile avec une interface et des services pensés autour de l'expérience utilisateur.</p></article>
+          <article class="project"><small>Interface · Design</small><h3>Wylhem UI</h3><p>Une expérience visuelle moderne, avec une identité sombre, des effets de profondeur et des interactions soignées.</p></article>
+          <article class="project"><small>Jeu · Simulation</small><h3>ÉCHO</h3><p>Un concept de jeu de vie et d'aventure dans un univers numérique original.</p></article>
+          <article class="project"><small>Projet numérique</small><h3>Auctura</h3><p>Un projet du studio en cours de conception.</p></article>
+          <article class="project"><small>Projet numérique</small><h3>GoWill</h3><p>Un autre projet de l'univers Wylhem Studio.</p></article>
+        </div>
+      </section>
+      <section class="about" id="studio"><div class="eyebrow">À propos</div><h2>Créer, tester, améliorer.</h2><p>Wylhem Studio rassemble des idées et des expérimentations numériques. Les démonstrations, téléchargements et espaces de participation seront proposés sur les fiches des projets lorsqu'ils seront prêts.</p></section>
+    </main>
+    <footer><span>© <span id="year">2026</span> Wylhem Studio</span><span>Conçu avec curiosité et créativité.</span></footer>
+  </div>
+</body>
+</html>
